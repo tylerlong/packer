@@ -1,0 +1,18 @@
+{
+  "name": "packer",
+  "version": "0.1.0",
+  "description": "Pack JS/CSS/fonts with webpack",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerlong/packer.git"
+  },
+  "author": "Tyler Long",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tylerlong/packer/issues"
+  },
+  "homepage": "https://github.com/tylerlong/packer#readme"
+}
