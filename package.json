@@ -4,15 +4,19 @@
   "description": "Pack JS/CSS/fonts with webpack",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --progress --colors --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tylerlong/packer.git"
   },
-  "author": "Tyler Long",
+  "author": "Tyler Long <tyler4long@gmail.com> (https://github.com/tylerlong)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tylerlong/packer/issues"
   },
-  "homepage": "https://github.com/tylerlong/packer#readme"
+  "homepage": "https://github.com/tylerlong/packer#readme",
+  "devDependencies": {
+    "webpack": "^1.13.3"
+  }
 }
