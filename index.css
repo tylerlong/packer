@@ -1,0 +1,14 @@
+body {
+  background-color: white;
+}
+
+.markdown-body {
+  min-width: 256px;
+  max-width: 978px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.markdown-body p {
+  text-align: justify;
+}
