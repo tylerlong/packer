@@ -33,6 +33,7 @@
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
+    "emojione": "^2.2.6",
     "font-awesome": "^4.7.0",
     "github-markdown-css": "==2.2.1",
     "highlight.js": "^9.8.0",

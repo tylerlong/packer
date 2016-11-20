@@ -3,6 +3,7 @@ require('ionicons/dist/css/ionicons.css');
 require('katex/dist/katex.min.css');
 require('github-markdown-css/github-markdown.css');
 require('highlight.js/styles/atom-one-light.css');
+require('emojione/assets/css/emojione.css');
 require('./index.css');
 
 
