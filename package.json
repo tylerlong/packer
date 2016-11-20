@@ -4,7 +4,7 @@
   "description": "Pack JS/CSS/fonts with webpack",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --progress --colors --watch"
+    "dev": "webpack-dev-server --progress --colors"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,8 @@
     "file-loader": "^0.9.0",
     "json-loader": "^0.5.4",
     "style-loader": "^0.13.1",
-    "webpack": "^1.13.3"
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
     "font-awesome": "^4.7.0"
