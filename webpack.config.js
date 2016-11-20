@@ -1,8 +1,8 @@
 module.exports = {
   entry: "./index.js",
   output: {
-    path: __dirname + '/dist',
-    filename: "index.js",
+    path: __dirname,
+    filename: "index.bundle.js",
   },
   module: {
     loaders: [
@@ -21,11 +21,11 @@ module.exports = {
       },
       {
         test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loader: "url-loader?limit=10000&mimetype=application/font-woff"
+        loader: "url-loader?limit=10000&mimetype=application/font-woff&name=fonts/[name].[ext]"
       },
       {
         test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loader: "file-loader"
+        loader: "file-loader?name=fonts/[name].[ext]"
       },
     ],
   },
