@@ -32,10 +32,10 @@ module.exports = {
     ],
   },
   plugins: [
-    new uglifyJsPlugin({
-      compress: {
-        warnings: false
-      }
-    })
-  ]
+    // new uglifyJsPlugin({
+    //   compress: {
+    //     warnings: false,
+    //   },
+    // }),
+  ],
 };
