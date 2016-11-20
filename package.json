@@ -4,7 +4,8 @@
   "description": "Pack JS/CSS/fonts with webpack",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --progress --colors",
+    "dev": "webpack --progress --colors --watch",
+    "dev-server": "webpack-dev-server --progress --colors",
     "open": "open http://localhost:8080/webpack-dev-server/"
   },
   "repository": {
@@ -30,6 +31,7 @@
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "ionicons": "^3.0.0"
   }
 }

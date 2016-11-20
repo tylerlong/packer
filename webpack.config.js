@@ -23,7 +23,7 @@ module.exports = {
         },
       },
       {
-        test: /\.(ttf|eot|svg|woff2?)(\?v=\d\.\d\.\d)?$/,
+        test: /\.(ttf|eot|svg|woff2?)(\?v=.+?)?$/,
         loader: "file-loader?name=fonts/[name].[ext]",
       },
     ],
