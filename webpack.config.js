@@ -18,6 +18,9 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader',
         exclude: /node_modules/,
+        query: {
+          presets: ['es2015', 'stage-0'],
+        },
       },
       {
         test: /\.(ttf|eot|svg|woff2?)(\?v=\d\.\d\.\d)?$/,
