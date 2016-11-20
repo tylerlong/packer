@@ -4,7 +4,8 @@
   "description": "Pack JS/CSS/fonts with webpack",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --progress --colors"
+    "dev": "webpack-dev-server --progress --colors",
+    "open": "open http://localhost:8080/webpack-dev-server/"
   },
   "repository": {
     "type": "git",
