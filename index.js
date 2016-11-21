@@ -9,7 +9,7 @@ require('./index.css');
 
 const katex = require('katex');
 const hljs = require('highlight.js');
-const ascii2latex = require('asciimath-to-latex/index.js');
+const ascii2latex = require('asciimath-to-latex');
 
 
 const f = () => {

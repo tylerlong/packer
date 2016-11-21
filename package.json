@@ -33,7 +33,7 @@
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
-    "asciimath-to-latex": "^0.1.8",
+    "asciimath-to-latex": "^0.1.9",
     "emojione": "^2.2.6",
     "font-awesome": "^4.7.0",
     "github-markdown-css": "==2.2.1",
